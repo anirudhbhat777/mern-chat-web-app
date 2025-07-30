@@ -1,42 +1,39 @@
-# ✨ Full Stack Realtime Chat App ✨
+# MERN Chat Web App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js). Supports user authentication, private messaging, group chats, profile management, and more — all with a sleek responsive UI.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## Features
 
-Highlights:
+- User authentication (Sign up & Login)
+- One-to-one and group chat functionality
+- Create and manage group chats
+- Real-time messaging with Socket.IO
+- Fully responsive design
+- Profile update and user search
+- Dark/light mode toggle
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## Tech Stack
 
-### Setup .env file
+**Frontend:**
+- React JS
+- Tailwind CSS
+- Axios
+- Context API
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Socket.IO
+- JWT for Auth
+  
+## ⚙️ Setup Instructions
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+### Prerequisites
+- Node.js and npm installed
+- MongoDB running locally or MongoDB Atlas URL
 
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+### 1. Clone the repository
+```bash
+git clone https://github.com/anirudhbhat777/mern-chat-web-app.git
+cd mern-chat-web-app
